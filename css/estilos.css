@@ -187,10 +187,26 @@
   }
   
   .flip-card {
-	height: 180px;
-	perspective: 1000px;
+    height: 180px;
+    perspective: 1000px;
+    position: relative;
+  }
+
+  .flip-card .flip-card-subtitle {
+    margin-top: 4px;
+    position: absolute;
+    bottom: -22px;
+    width: 100%;
+    text-align: center;
+    
   }
   
+  .flip-card .flip-card-subtitle a {
+    color: #FFF5EE;
+    font-weight: bolder;
+     
+  }
+
   .flip-card:hover .card {
 	transform: rotateY(180deg);
   }
