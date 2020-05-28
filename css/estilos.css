@@ -160,7 +160,7 @@
   
   @media (min-width: 600px) {
 	.sobre .avatar {
-	  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 	  float: right;
 	}
   }
