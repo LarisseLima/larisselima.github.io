@@ -267,3 +267,12 @@
 	text-decoration: none;
 	text-shadow: 0px 0px 10px rgba(255,255,255,.6);
   }
+
+  .footer p {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    color: #FFF5EE;
+
+  }
