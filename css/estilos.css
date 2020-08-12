@@ -278,3 +278,10 @@
     color: #FFF5EE;
 
   }
+
+  .rodape__texto-span {
+    color: #502b62;
+    font-weight: 700;
+    text-decoration: none;
+   
+}
